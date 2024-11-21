@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+ul {
+    list-style-type : none;
+    padding: 0 20px 0 20px;
+}
+/*------------------header-----------------------*/
+header {
+    margin: 20px 400px 15px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    color: #ffc000;
+    transition: 0.5s;
+}
+a:hover {
+    color: white;
+}
+.img_header {
+    width: 300px;
+    height: auto;
+}
+.paramettre {
+    display: flex;
+    align-items: center;
+}
+.langage {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ffc000;
+    color: #002060;
+    padding: 0 20px 0 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.symb_langage {
+    margin-right: 10px;
+}
+.plan_site {
+    text-align: center;
+}
+/*----------------navigation---------------------*/
+nav {
+    background-color: #002060;
+    padding: 40px 600px 40px 600px;
+}
+.navigation_site {
+    display: flex;
+    justify-content: space-between;
+    list-style-type : none;
+}
+.page_actuel {
+    background-color: #ffc000;
+    color: #002060;
+    padding: 40px 20px 40px 20px;
+    text-decoration: none;
+    transition: 0.5;
+}
+.page_actuel:hover {
+    background-color: white;
+    color: #002060;
+}
+.navig_page {
+    color: #ffc000;
+    padding: 40px 20px 40px 20px;
+    text-decoration: none;
+    transition: 0.5;
+}
+.navig_page:hover {
+    background-color: #ffc000;
+    color: #002060;
+}
+/*-------------------titre-----------------------*/
+h1 {
+    display: flex;
+    color: #002060;
+    justify-content: center;
+}
+/*-------------------main------------------------*/
+main {
+    margin: 10px 400px 50px 400px;
+}
+h1 {
+    margin: 50px 0 50px 0;
+}
+h2 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    background-color: #ffc000;
+    color: #002060;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+h3 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+    background-color: #ffc000;
+    color: #002060;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.logo_align{
+    text-align: center;
+}
+.logo_asea {
+    width: 200px;
+    height: auto;
+}
+.mini_flag {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.contenue {
+    margin: 5px 0 20px 0;
+    background-color: #002060;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+.contenue2 {
+    margin: 5px 0 20px 0;
+    background-color: #002060;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+p {
+    margin: 20px 0 20px 0;
+}
+
+.lien_mapmonde {
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffc000;
+    color: #002060;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.lien_pays {
+    padding: 5px 10px 5px 10px;
+    background-color: #ffc000;
+    color: #002060;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.lien_pays:hover {
+    letter-spacing: 5px;
+}
+
+.carte_img {
+    width: 700px;
+    height: auto;
+}
+/*------------------footer-----------------------*/
+footer {
+    border-top: #002060 solid 2px;
+}
+.footer_border {
+    margin: 10px 400px 50px 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.navig_page_footer {
+    color: #002060;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navig_page_footer:hover {
+    color: #ffc000;
+}
+.img_footer {
+    width: 200px;
+    height: auto;
+}
+.discord {
+    color: #002060;
+}
+.discord:hover {
+    color: #002060;
+}
+.mini_logo {
+    width: 15px;
+    height: auto;
+    margin-right: 10px;
+}
