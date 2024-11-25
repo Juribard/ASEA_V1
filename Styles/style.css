@@ -162,9 +162,6 @@ p {
     border-radius: 20px;
     transition: 0.5s;
 }
-.lien_pays:hover {
-    letter-spacing: 5px;
-}
 
 .carte_img {
     width: 700px;
@@ -277,6 +274,11 @@ footer {
 @media screen and (max-width: 570px) {
     .footer_border {
         margin: 10px 5px 50px 5px;
+    }
+}
+@media screen and (min-width:460px) {
+    .lien_pays:hover {
+        letter-spacing: 5px;
     }
 }
 @media screen and (max-width: 440px){
