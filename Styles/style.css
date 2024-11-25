@@ -58,6 +58,13 @@ nav {
     justify-content: space-between;
     list-style-type : none;
 }
+.nav_site_mobile {
+    text-align: center;
+}
+.espacement {
+    border: solid 1px #ffc000;
+    margin: 20px 0 20px 0;
+}
 .page_actuel {
     background-color: #ffc000;
     color: #002060;
@@ -78,6 +85,14 @@ nav {
 .navig_page:hover {
     background-color: #ffc000;
     color: #002060;
+}
+.page_actuel2 {
+    text-decoration: none;
+    font-size: 30px;
+}
+.navig_page2 {
+    text-decoration: none;
+    font-size: 30px;
 }
 /*-------------------titre-----------------------*/
 h1 {
@@ -247,6 +262,14 @@ footer {
     .img_header {
         width: 100px;
         height: auto;
+    }
+    .navigation_site {
+        display: none;
+    }
+}
+@media screen and (min-width: 776px){
+    .nav_site_mobile  {
+        display: none;
     }
 }
 @media screen and (max-width: 700px){
