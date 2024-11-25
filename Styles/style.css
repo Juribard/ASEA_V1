@@ -13,15 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-@media screen and (max-width: 1205px){
-    header {
-        margin: 20px 10% 15px 10%;
-    }
-    .langage_pays{
-        display: none;
-    }
 
-}
 a {
     color: #ffc000;
     transition: 0.5s;
@@ -37,12 +29,7 @@ a:hover {
     display: flex;
     align-items: center;
 }
-@media screen and (max-width: 440px){
-    .paramettre {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+
 .langage {
     margin-right: 10px;
     display: flex;
@@ -65,34 +52,7 @@ nav {
     background-color: #002060;
     padding: 40px 30% 40px 30%;
 }
-@media screen and (max-width: 1730px){
-    nav {
-        padding: 40px 20% 40px 20%;
-    }
-}
-@media screen and (max-width: 1155px){
-    nav {
-        padding: 40px 5% 40px 5%;
-        font-weight: 5px;
-    }
-}
-@media screen and (max-width: 775px){
-    nav {
-        padding: 40px 0 40px 0;
-    }
-    .img_header {
-        width: 100px;
-        height: auto;
-    }
-}
-@media screen and (max-width: 700px){
-    .navig_page {
-        padding: 20px 5px 20px 5px !important;
-    }
-    .page_actuel {
-        padding: 20px 5px 20px 5px !important;
-    }
-}
+
 .navigation_site {
     display: flex;
     justify-content: space-between;
@@ -125,19 +85,10 @@ h1 {
     color: #002060;
     justify-content: center;
 }
-@media screen and (max-width: 800px){
-    h1 {
-        text-align: center;
-    }
-}
+
 /*-------------------main------------------------*/
 main {
     margin: 10px 400px 50px 400px;
-}
-@media screen and (max-width: 1570px) {
-    main {
-        margin: 10px 10% 50px 10%;
-    }
 }
 h1 {
     margin: 50px 0 50px 0;
@@ -175,20 +126,7 @@ h4 {
     display: flex;
     flex-direction: column;
 }
-@media screen and (max-width: 575px) {
-    .img_presentation {
-        width: 100%;
-    }
-    main {
-        margin: 10px 0 50px 0;
-    }
-    .lien_pays{
-        letter-spacing: none;
-    }
-    .lien_pays:hover {
-        letter-spacing: normal;
-    }
-}
+
 .contenue {
     margin: 5px 0 20px 0;
     background-color: #002060;
@@ -232,11 +170,7 @@ p {
     width: 700px;
     height: auto;
 }
-@media screen and (max-width: 940px) {
-    .carte_img {
-        width: 100%;
-    }
-}
+
 /*------------------footer-----------------------*/
 footer {
     border-top: #002060 solid 2px;
@@ -246,16 +180,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width: 1570px) {
-    .footer_border {
-        margin: 10px 20% 50px 20%;
-    }
-}
-@media screen and (max-width: 570px) {
-    .footer_border {
-        margin: 10px 5px 50px 5px;
-    }
-}
+
 .navig_page_footer {
     color: #002060;
     text-decoration: none;
@@ -278,4 +203,85 @@ footer {
     width: 15px;
     height: auto;
     margin-right: 10px;
+}
+
+/*-------------------responsive------------------------*/
+@media screen and (max-width: 1570px) {
+    main {
+        margin: 10px 10% 50px 10%;
+    }
+    .footer_border {
+        margin: 10px 20% 50px 20%;
+    }
+}
+@media screen and (max-width: 1205px){
+    header {
+        margin: 20px 10% 15px 10%;
+    }
+    .langage_pays{
+        display: none;
+    }
+}
+@media screen and (max-width: 1730px){
+    nav {
+        padding: 40px 20% 40px 20%;
+    }
+}
+@media screen and (max-width: 1155px){
+    nav {
+        padding: 40px 5% 40px 5%;
+        font-weight: 5px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .carte_img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 775px){
+    nav {
+        padding: 40px 0 40px 0;
+    }
+    .img_header {
+        width: 100px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 700px){
+    .navig_page {
+        padding: 20px 5px 20px 5px !important;
+    }
+    .page_actuel {
+        padding: 20px 5px 20px 5px !important;
+    }
+}
+@media screen and (max-width: 575px) {
+    .img_presentation {
+        width: 100%;
+    }
+    main {
+        margin: 10px 0 50px 0;
+    }
+    .lien_pays{
+        letter-spacing: none;
+    }
+    .lien_pays:hover {
+        letter-spacing: normal;
+    }
+}
+@media screen and (max-width: 570px) {
+    .footer_border {
+        margin: 10px 5px 50px 5px;
+    }
+}
+@media screen and (max-width: 440px){
+    .paramettre {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
