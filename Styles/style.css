@@ -70,7 +70,7 @@ nav {
     color: #002060;
     padding: 40px 20px 40px 20px;
     text-decoration: none;
-    transition: 0.5;
+    transition: 0.5s;
 }
 .page_actuel:hover {
     background-color: white;
@@ -80,7 +80,7 @@ nav {
     color: #ffc000;
     padding: 40px 20px 40px 20px;
     text-decoration: none;
-    transition: 0.5;
+    transition: 0.5s;
 }
 .navig_page:hover {
     background-color: #ffc000;
@@ -242,7 +242,6 @@ footer {
 @media screen and (max-width: 1155px){
     nav {
         padding: 40px 5% 40px 5%;
-        font-weight: 5px;
     }
 }
 @media screen and (max-width: 940px) {
@@ -286,9 +285,6 @@ footer {
     }
     main {
         margin: 10px 0 50px 0;
-    }
-    .lien_pays{
-        letter-spacing: none;
     }
     .lien_pays:hover {
         letter-spacing: normal;
