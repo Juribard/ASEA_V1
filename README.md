@@ -8,7 +8,7 @@ Le but de ce travail dans le cadre de mes études est de créer un site de prés
 - 3 pages HTML (Accueil; Pays; A propos)
 - Des liens externes
 
-**Note:**
+**Note:**   
 Une blague s'est glissé dans le site :)
 
 **Lien du site:**
