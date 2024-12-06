@@ -5,7 +5,7 @@ Le but de ce travail dans le cadre de mes études est de créer un site de prés
 
 **Contenu:**
 - 1 page CSS
-- 3 pages HTML (Accueil; Pays; A propos)
+- 4 pages HTML (Accueil; Pays; Institutions; A propos)
 - Des liens externes
 
 **Note:**   
