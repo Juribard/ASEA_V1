@@ -132,6 +132,10 @@ h4 {
     margin-bottom: 10px;
     text-align: center;
 }
+.align_bouton {
+    display: flex;
+    flex-direction: column;
+}
 .logo_align{
     text-align: center;
 }
@@ -242,6 +246,19 @@ footer {
         padding: 40px 20% 40px 20%;
     }
 }
+@media screen and (min-width: 1335px){
+    .align_bouton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 1335px) {
+    .align_bouton_small {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 @media screen and (max-width: 1155px){
     nav {
         padding: 40px 5% 40px 5%;
@@ -255,6 +272,11 @@ footer {
 @media screen and (max-width: 800px){
     h1 {
         text-align: center;
+    }
+}
+@media screen and (min-width:790px) {
+    .lien_pays:hover {
+        letter-spacing: 5px;
     }
 }
 @media screen and (max-width: 775px){
@@ -298,11 +320,7 @@ footer {
         margin: 10px 5px 50px 5px;
     }
 }
-@media screen and (min-width:460px) {
-    .lien_pays:hover {
-        letter-spacing: 5px;
-    }
-}
+
 @media screen and (max-width: 440px){
     .paramettre {
         display: flex;
