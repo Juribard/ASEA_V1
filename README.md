@@ -9,7 +9,7 @@ Le but de ce travail dans le cadre de mes études est de créer un site de prés
 - Des liens externes; principalement vers le site de Géokratos (https://geokratos.com/)
 
 **Notes:**
-- Le site est adaptable à tout les écrans(Responsive Web Design)
+- Le site est adaptable à tout les écrans (Responsive Web Design)
 - 3 types d'animations ont été ajouté dans le but de faciliter la navigation
 - Une blague s'est glissé dans le site :)
 
