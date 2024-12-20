@@ -1,7 +1,7 @@
 ASEA README
 
 **Explications:**   
-Le but de ce travail dans le cadre de mes études est de créer un site de présentation de l'ASEA avec un visuel inspiré en partie du site de l'Union Européenne (https://european-union.europa.eu/index_fr) dans le cadre d'un rôle-play de géopolitique textuelle et de le rendre le plus vraisemblable possible dans le but de présetnter une organisation internationale fictive.
+Le but de ce travail dans le cadre de mes études est de créer un site de présentation de l'ASEA (avec une organisation du contenu inspiré en partie du site de l'Union Européenne (https://european-union.europa.eu/index_fr)) dans le cadre d'un rôle-play de géopolitique textuelle et de le rendre le plus vraisemblable possible dans le but de présetnter une organisation internationale fictive.
 
 **Contenu:**
 - 1 page CSS
